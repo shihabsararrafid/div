@@ -61,9 +61,7 @@
 .education img{
     width: 100%;
 }
-#font-size{
-    font-size: 50px;
-    color: aqua;
+
 }
 .btn{
     padding: 5px;
@@ -76,16 +74,33 @@
 }
 .learning-xp   {
     box-shadow: 5px 5px 5px  grey;
-    border-left: 10px solid none;
+    border-left: 7px solid black;
     width: 40%;
     margin: auto;
-    border-image-source: linear-gradient(cyan, aqua);
+    border-image-source: linear-gradient(cyan, rgb(8, 99, 99));
     border-image-slice: 1;
+    border-radius: 5px;
+
 }
 .full-xp{
     box-shadow: 5px 5px 5px  grey;
-    border: 5px solid none;
+    border-left: 5px solid rgb(14, 12, 12);
     width: 40%;
     margin: auto;
+    border-image-source: linear-gradient(salmon, indianred);
+    border-image-slice: 1;
+    border-radius: 5px;
+
+}
+.inst{
+    text-align: center;
+    color: tomato;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.footer{
+   
+    margin-top: 40px;
+    text-align: center;
 
 }
