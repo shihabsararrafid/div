@@ -8,6 +8,8 @@
     
     
 }
+
+}
 .bg-color{
     background-color: lavender;
    
@@ -74,23 +76,34 @@
 }
 .learning-xp   {
     box-shadow: 5px 5px 5px  grey;
-    border-left: 7px solid black;
+    border-left: 6px solid black;
     width: 40%;
     margin: auto;
     border-image-source: linear-gradient(cyan, rgb(8, 99, 99));
     border-image-slice: 1;
     border-radius: 5px;
+    background-color: darkslategrey;
+    cursor: pointer;
 
+}
+.learning-xp:hover{
+    background-color: indianred;
+    color: whitesmoke;
 }
 .full-xp{
     box-shadow: 5px 5px 5px  grey;
-    border-left: 5px solid rgb(14, 12, 12);
+    border-left: 6px solid rgb(14, 12, 12);
     width: 40%;
     margin: auto;
-    border-image-source: linear-gradient(salmon, indianred);
+    border-image-source: linear-gradient(salmon, rgb(235, 8, 8));
     border-image-slice: 1;
     border-radius: 5px;
+    background-color: rgb(150, 151, 240);
+    cursor: pointer;
 
+}
+.full-xp:hover{
+    background-color:rgb(28, 114, 114);
 }
 .inst{
     text-align: center;
@@ -100,7 +113,7 @@
 }
 .footer{
    
-    margin-top: 40px;
+    margin-top: 70px;
     text-align: center;
 
 }
