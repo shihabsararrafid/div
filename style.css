@@ -1,0 +1,91 @@
+.flex{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 100px;
+    width: 80%;
+   
+
+    
+    
+}
+.bg-color{
+    background-color: lavender;
+   
+}
+.home{
+    margin: 5px auto;
+    background-color: rgb(19, 88, 62);
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home:hover
+{
+  background-color: rgb(199, 23, 23);
+}
+.intro{
+    margin-top: 50px;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.introduction-speech
+{
+    text-align: justify;
+}
+.orange-color{
+    color: tomato;
+}
+.education  {
+    display: flex;
+    margin-top: 50px;
+    
+}
+.third-width{
+    width: 30%;
+    margin: 5px auto;
+    border: 5px solid none;
+    box-shadow: 5px 5px 5px -5px gray;
+    border-radius:10px;
+    
+  
+}
+.image{
+    width: 100%;
+    
+}
+.education img{
+    width: 100%;
+}
+#font-size{
+    font-size: 50px;
+    color: aqua;
+}
+.btn{
+    padding: 5px;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color:aqua ;
+}
+.learning-xp   {
+    box-shadow: 5px 5px 5px  grey;
+    border-left: 10px solid none;
+    width: 40%;
+    margin: auto;
+    border-image-source: linear-gradient(cyan, aqua);
+    border-image-slice: 1;
+}
+.full-xp{
+    box-shadow: 5px 5px 5px  grey;
+    border: 5px solid none;
+    width: 40%;
+    margin: auto;
+
+}
